@@ -28,9 +28,11 @@
 
   ## Learning and Research 
 
-- [ ] Item
-- [ ] Item
-- [ ] Item
+- [ ] Interactive Map that can store data
+- [ ] Picture Geotagging
+- [ ] User Auth
+- [ ] Privacy and Secrity
+
 
 ## Architecture & Tech Stack
 
