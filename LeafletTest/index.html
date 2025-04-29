@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Leaflet Hello World</title>
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-xwE/Ng+6m6Gy2OG6Q5q0ZqSE/2vZ7lT7F3E48XJ7kY0="
+    crossorigin=""
+  />
+  <style>
+    /* Make the map fill the screen */
+    html, body, #map { height: 100%; margin: 0; padding: 0; }
+    /* Highlight style on hover */
+    .highlight { fill: orange; fill-opacity: 0.5; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-Qo0tzf8LzPRgcPe6RqLAej9FGA6lyw/5C3bb5pGxFGA="
+    crossorigin=""
+  ></script>
+  <script src="js/map.js"></script>
+</body>
+</html>
